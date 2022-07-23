@@ -1,0 +1,47 @@
+ .bottomcomp {
+     display: flex;
+     width: 30%;
+     background-image: url("../img/backgroundcard.png");
+     background-size: cover;
+     padding: 15px;
+     margin: 10px;
+     border-radius: 15px;
+ }
+.rightimgbottom{
+    width: 100%;
+}
+ .leftbottomcomp {
+     width: 80%;
+     padding: 10px;
+ }
+
+ .rightbottomcomp {
+     padding: 10px;
+
+ }
+
+ .multibottom {
+     display: flex;
+     justify-content: space-evenly;
+     margin: auto;
+ }
+
+ @media(max-width:990px) {
+     .leftbottomcomp {
+         width: 100%;
+         margin: auto;
+     }
+
+     .bottomcomp {
+         display: flex;
+        width: 100%;
+         background-image: url("../img/backgroundcard.png");
+         background-size: cover;
+         padding: 15px;
+         margin: 10px;
+         border-radius: 15px;
+     }
+     .textdiv{
+        font-size: 14px;
+     }
+ }

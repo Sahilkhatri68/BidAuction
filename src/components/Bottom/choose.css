@@ -1,0 +1,43 @@
+.recentcard {
+    padding: 10px;
+    width: 350px;
+    height: 350px;
+    padding-bottom: 5%;
+}
+
+.insideRecentImg {
+    width: 100%
+}
+
+.recentcardData {
+    padding: 20px;
+    background-color: #f4f5fc;
+}
+
+.choosemore {
+    display: flex;
+    justify-content: space-evenly;
+}
+.btnandview{
+    display: flex;
+    justify-content: space-between;
+}
+.bnowbottom{
+    font-size: 16px;
+    border: none;
+    width: 70px;
+    height: 30px;
+    border-radius: 3px;
+    color: white;
+    background-color: black;
+}
+@media(max-width:650px) {
+    .choosemore {
+        display: block;
+    }
+
+    .recentcard {
+        width: 100%;
+        margin-top: 13%;
+    }
+}
