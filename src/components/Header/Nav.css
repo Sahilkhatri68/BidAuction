@@ -171,7 +171,6 @@ body {
 
 .botomhead {
     text-align: center;
-    padding-bottom: 3%;
 }
 
 .topnaavaa a:hover,
@@ -386,11 +385,14 @@ body {
 
 .bottmhead {
     padding: 10px;
-}
-
-.parabottom {
     margin-left: 20px;
 }
+.botmspon{
+    width: 95%;
+    margin: auto;
+    text-emphasis: left;
+}
+ 
 
 .itemsbottoms {
     display: flex;

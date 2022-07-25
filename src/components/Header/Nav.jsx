@@ -27,6 +27,7 @@ import Bottom from '../Bottom/Bottom';
 import { FaUserCircle } from 'react-icons/fa';
 import ViewMore from '../Bottom/ViewMore';
 import ChooseMore from '../Bottom/Choose';
+import BodyNav from '../view/BodyNav';
 const ariaLabel = { 'aria-label': 'description' };
 
 
@@ -89,7 +90,8 @@ export default function Navbar() {
                     <Link to="/userprofile">  <FaUserCircle style={{ width: 25, height: 25 }} /></Link>
                 </div>
             </div> */}
-            <GlobalNav />
+            {/* <GlobalNav /> */}
+            <BodyNav />
             <div className='midSectionn'  >
                 <div className='MidHeading'>
                     <h1 className='exploreHeading'>Explore  categories</h1>
@@ -231,7 +233,9 @@ export default function Navbar() {
                 <div style={{ marginBottom: 250 }}>
                     <ChooseMore />
                 </div>
-                <div className='botomhead'><h1>Sponsor's</h1></div>
+                <div className='botomhead'>
+                    <div className='botmspon'><h1 style={{textAlign:"left"}}>Sponsor's</h1></div>
+                    </div>
                 <div className='botomcontent'  >
                     <Bottom />
                 </div>

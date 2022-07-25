@@ -11,6 +11,10 @@
     padding: 20px;
     background-color: #f4f5fc;
  }
+ .rectnhead{
+   width: 95%;
+   margin: auto;
+ }
  .viewmorecard{
     display: flex;
     justify-content: space-evenly;

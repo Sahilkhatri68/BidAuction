@@ -28,6 +28,7 @@ import EditProfile from './components/StaffProfile/EditProfile';
 import StaffProfile from './components/StaffProfile/StaffProfile';
 import Upcoming from './components/UpcomingAuction/Upcoming';
 import UserProfile from './components/User/UserProfile';
+import BodyNav from './components/view/BodyNav';
 import GlobalNav from './components/view/GlobalNav';
 import NavView from './components/view/NavView';
 import Product from './components/view/ProductPage';
@@ -73,6 +74,7 @@ export default function App() {
         <Route path="/contactus" element={<ContactUs/>}/>  {/* Footer Contact us page  */}
         <Route path="*" element={<Notfound/>}/>  {/*Not found page  */}
         <Route path="/choose" element={<ChooseMore/>}/>  {/*Choosemore page  */}
+        <Route path="/bodynav" element={<BodyNav/>}/>  {/*Choosemore page  */}
         
 
 
