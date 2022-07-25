@@ -2,7 +2,7 @@ import React from 'react'
 import GlobalNav from '../view/GlobalNav'
 import "./Staffprofile.css"
 import { Link } from 'react-router-dom';
-
+import aki from "../img/aki.jpg";
 export default function EditProfile() {
     return (
 
@@ -14,9 +14,9 @@ export default function EditProfile() {
                         <div className="col-md-4">
                             <div className="profile-img">
                                 <img
-                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52y5aInsxSm31CvHOFHWujqUx_wWTS9iM6s7BAm21oEN_RiGoog"
+                                    src={aki}
                                     alt=""
-                                />
+                                ></img>
                                 <div className="file btn btn-lg btn-primary">
                                     Change Photo
                                     <input type="file" name="file" />

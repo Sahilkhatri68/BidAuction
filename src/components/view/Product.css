@@ -244,4 +244,15 @@ html, body {
       top: -85px;
     }
   }
-  
+  @media(max-width:1000px){
+    .forwrap{
+      display: block;
+      width: 100%;
+      background-size: cover;
+    }
+    .ccontiner{
+      display: block;
+      background-size: cover;
+      background-position: center;
+    }
+  }

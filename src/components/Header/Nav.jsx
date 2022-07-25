@@ -49,48 +49,7 @@ export default function Navbar() {
     };
     return (
         <>
-
-            {/* <div className="naavaa">
-
-                <div className="naavaa-header">
-                    <div className="naavaa-title">
-                        <Link to="/"  > <img src={yashti} className="mianlogoo"></img></Link>
-                    </div>
-                </div>
-                <div className="naavaa-btn">
-                    <label htmlFor="naavaa-check">
-                        <span />
-                        <span />
-                        <span />
-                    </label>
-                </div>
-
-                <div className="naavaa-links">
-                    <Link to="/stafflogin" >Staff</Link>
-                    <div className="drdwn">
-                        <button className="dropbtn">Auction's
-                            <i className="fa fa-caret-down" style={{ marginLeft: 8 }}></i>
-                        </button>
-                        <div className="drdwn-content">
-                            <Link to="/live">Live Auction</Link>
-                            <Link to="/upcoming">Upcoming Auctions</Link>
-                            <Link to="/bank">Bank Auctions</Link>
-
-                        </div>
-                    </div>
-
-                    <div className="drdwn">
-                        <Link to="/member">  <button className="dropbtn">Plans
-
-                        </button></Link>
-
-                    </div>
-                    <Link to="/signup"> <button className='Sbtn'>Signup</button></Link>
-                    <Link to="/login"><button className='Lbtn'>Login</button></Link>
-                    <Link to="/userprofile">  <FaUserCircle style={{ width: 25, height: 25 }} /></Link>
-                </div>
-            </div> */}
-            {/* <GlobalNav /> */}
+ 
             <BodyNav />
             <div className='midSectionn'  >
                 <div className='MidHeading'>
@@ -186,7 +145,8 @@ export default function Navbar() {
                                 <img src={camera} alt="camera" className='cameraimg'></img>
                                 <div className="description">
                                     <div className='wrapppdiv'>
-                                        <h3 className='headHide'>Sedan</h3>
+                                        <h3 className='headHide'>Coupe</h3>
+                                        <p className='propara'>Two door</p>
                                         <h4 className='sppannn'><BiRupee />450</h4>
                                     </div>
                                     <Link to="/view">   <button className='bnow'>Bid Now</button></Link>
@@ -195,9 +155,11 @@ export default function Navbar() {
                             <div className='leftrightitem  '>
                                 <img src={camera} alt="camera" className='cameraimg'></img>
                                 <div className="description">
-                                    <div className='wrapppdiv'>
-                                        <h3 className='headHide'>Coupe</h3>
-                                        <h4 className='sppannn'><BiRupee />250</h4></div>
+                                <div className='wrapppdiv'>
+                                        <h3 className='headHide'>Sedan</h3>
+                                        <p className='propara'>Confortable</p>
+                                        <h4 className='sppannn'><BiRupee />450</h4>
+                                    </div>
                                     <Link to="/view">    <button className='bnow'>Bid Now</button></Link>
                                 </div>
                             </div>
@@ -215,6 +177,7 @@ export default function Navbar() {
                                     <div className="description">
                                         <div className='wrapppdiv'>
                                             <h3 className='headHide'>HatchBack</h3>
+                                            <p className='propara'>Confortable</p>
                                             <h4 className='sppannn'><BiRupee />250</h4></div>
                                         <Link to="/view">    <button className='bnow'>Bid Now</button></Link>
                                     </div>
@@ -224,6 +187,7 @@ export default function Navbar() {
                                     <div className="description">
                                         <div className='wrapppdiv'>
                                             <h3 className='headHide'>Convertible</h3>
+                                            <p className='propara'>Confortable</p>
                                             <h4 className='sppannn'><BiRupee />250</h4></div>
                                         <Link to="/view">    <button className='bnow'>Bid Now</button></Link>
                                     </div>

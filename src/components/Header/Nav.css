@@ -189,7 +189,6 @@ body {
 }
 
 .Sbtn {
-    margin-left: 10px;
     margin-right: 5px;
     cursor: pointer;
     background: none;
@@ -282,6 +281,8 @@ body {
     font-size: 16px;
     color: #808080;
     font-weight: 600;
+    margin: 0px;
+    padding: 0px;
 }
 
 .productMid {
@@ -390,6 +391,7 @@ body {
 
 .bottmhead {
     padding: 10px;
+    margin-left: 30px;
 }
 
 .botmspon {
@@ -435,7 +437,6 @@ body {
 }
 
 .wrapppdiv {
-    margin-left: 20px;
     text-align: left;
 
 }
@@ -443,6 +444,11 @@ body {
 .sppannn {
     color: black;
     font-size: 18px;
+}
+.propara{
+    color: #808080;
+        margin: 0;
+        padding: 0;
 }
 
 .bidBtn {

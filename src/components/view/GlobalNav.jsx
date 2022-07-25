@@ -2,7 +2,7 @@ import React from 'react'
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import { FaUserCircle } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import yashti from "../img/yashti.jpg";
+import yashti from "../img/bgremovelogo.png";
 export default function GlobalNav() {
     return (
         <>

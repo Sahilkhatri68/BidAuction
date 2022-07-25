@@ -37,7 +37,7 @@ export default function Product() {
             <GlobalNav />
             <main className="ccontiner">
                 {/* Left Column / Headphones Image */}
-                <div className='forwrap'>
+                <div className='forwrap'    >
                     <Slide>
                         <div className="each-slide-effect">
                             <div style={{ 'backgroundImage': `url( https://www.hdcarwallpapers.com/walls/ford_mustang_gt_fastback_2018_4k-HD.jpg)` }}>

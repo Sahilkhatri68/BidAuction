@@ -1,7 +1,7 @@
 import React from 'react'
 import GlobalNav from '../view/GlobalNav'
 import { Link } from 'react-router-dom';
-
+import aki from "../img/aki.jpg"
 import "./userprofile.css"
 export default function UserProfile() {
     return (
@@ -14,9 +14,9 @@ export default function UserProfile() {
                         <div className="col-md-4">
                             <div className="profile-img">
                                 <img
-                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52y5aInsxSm31CvHOFHWujqUx_wWTS9iM6s7BAm21oEN_RiGoog"
+                                    src={aki}
                                     alt=""
-                                />
+                                ></img>
 
                             </div>
                         </div>
