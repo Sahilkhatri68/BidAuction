@@ -1,6 +1,7 @@
 
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Aboutus from './components/AboutUs/Aboutus';
 import Bank from './components/Bank Auction/Bank';
 import Bottom from './components/Bottom/Bottom';
 import ChooseMore from './components/Bottom/Choose';
@@ -74,7 +75,8 @@ export default function App() {
         <Route path="/contactus" element={<ContactUs/>}/>  {/* Footer Contact us page  */}
         <Route path="*" element={<Notfound/>}/>  {/*Not found page  */}
         <Route path="/choose" element={<ChooseMore/>}/>  {/*Choosemore page  */}
-        <Route path="/bodynav" element={<BodyNav/>}/>  {/*Choosemore page  */}
+        <Route path="/bodynav" element={<BodyNav/>}/>  {/*main nav on home page  */}
+        <Route path="/aboutus" element={<Aboutus/>}/>  {/*about us page */}
         
 
 

@@ -63,7 +63,7 @@ export default function BodyNav() {
                     <div className='outsideInst'>
                         <div>
                             <FormControl sx={{ m: 1, minWidth: 120 }} size="small">
-                                <InputLabel id="demo-select-small">Age</InputLabel>
+                                <InputLabel id="demo-select-small">Cars</InputLabel>
                                 <Select
                                     labelId="demo-select-small"
                                     id="demo-select-small"
@@ -74,9 +74,10 @@ export default function BodyNav() {
                                     <MenuItem value="">
                                         <em>None</em>
                                     </MenuItem>
-                                    <MenuItem value={10}>Ten</MenuItem>
-                                    <MenuItem value={20}>Twenty</MenuItem>
-                                    <MenuItem value={30}>Thirty</MenuItem>
+                                    <MenuItem value={10}>Maruti</MenuItem>
+                                    <MenuItem value={20}>Honda</MenuItem>
+                                    <MenuItem value={30}>Mahindra</MenuItem>
+                                    <MenuItem value={40}>Nexa</MenuItem>
                                 </Select>
                             </FormControl>
                         </div>

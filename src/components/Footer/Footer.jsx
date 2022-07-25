@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <>
 
-
+      
       <footer>
         <div className="footer-wrap">
           <div className="wrapperrr">
@@ -33,9 +33,9 @@ export default function Footer() {
               </Link>
               
                
-              <a href="" className="links">
+              <Link to="/aboutus" className="links">
                 About Us
-              </a>
+              </Link>
             </div>
             <div className="linespace" />
             <div className="blank" />
