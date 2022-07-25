@@ -94,7 +94,7 @@ export default function Navbar() {
             <BodyNav />
             <div className='midSectionn'  >
                 <div className='MidHeading'>
-                    <h1 className='exploreHeading'>Explore  categories</h1>
+                    <h1 className='exploreHeading' style={{textAlign:"left"}}>Explore  categories</h1>
                 </div>
                 <div className='outside'>
                     <div className='MidItems'>
@@ -170,9 +170,11 @@ export default function Navbar() {
                             <img src={gm} alt="img" className='wwwatch'></img>
                         </div>
                         <div className='descdiv'>
-                            <h2 className='headwrap'>Suv</h2>
-                            <h3 className='headHide'>Starting Bid</h3>
-                            <span className='sppannn'><h3 className='sppannn'><BiRupee />350.00</h3></span>
+                            <div className='wrapppdiv'>
+                                <h2 className='headwrap'>Suv</h2>
+                                <h3 className='headHide'>Starting Bid</h3>
+                                <span className='sppannn'><h3 className='sppannn'><BiRupee />350.00</h3></span>
+                            </div>
                             <div>
                                 <Link to="/view">      <button className='bidBtn'>Bid Now</button></Link>
                             </div>
@@ -183,16 +185,19 @@ export default function Navbar() {
                             <div className='leftrightitem  '>
                                 <img src={camera} alt="camera" className='cameraimg'></img>
                                 <div className="description">
-                                    <h3 className='headHide'>Photo</h3>
-                                    <h4 className='sppannn'><BiRupee />450</h4>
+                                    <div className='wrapppdiv'>
+                                        <h3 className='headHide'>Sedan</h3>
+                                        <h4 className='sppannn'><BiRupee />450</h4>
+                                    </div>
                                     <Link to="/view">   <button className='bnow'>Bid Now</button></Link>
                                 </div>
                             </div>
                             <div className='leftrightitem  '>
                                 <img src={camera} alt="camera" className='cameraimg'></img>
                                 <div className="description">
-                                    <h3 className='headHide'>Gaming</h3>
-                                    <h4 className='sppannn'><BiRupee />250</h4>
+                                    <div className='wrapppdiv'>
+                                        <h3 className='headHide'>Coupe</h3>
+                                        <h4 className='sppannn'><BiRupee />250</h4></div>
                                     <Link to="/view">    <button className='bnow'>Bid Now</button></Link>
                                 </div>
                             </div>
@@ -208,17 +213,19 @@ export default function Navbar() {
                                 <div className='leftrightitem  '>
                                     <img src={camera} alt="camera" className='cameraimg'></img>
                                     <div className="description">
-                                        <h3 className='headHide'>Controller</h3>
-                                        <h4 className='sppannn'><BiRupee />400</h4>
-                                        <Link to="/view"> <button className='bnow'>Bid Now</button></Link>
+                                        <div className='wrapppdiv'>
+                                            <h3 className='headHide'>HatchBack</h3>
+                                            <h4 className='sppannn'><BiRupee />250</h4></div>
+                                        <Link to="/view">    <button className='bnow'>Bid Now</button></Link>
                                     </div>
                                 </div>
                                 <div className='leftrightitem  '>
                                     <img src={camera} alt="camera" className='cameraimg'></img>
                                     <div className="description">
-                                        <h3 className='headHide'>Bag</h3>
-                                        <h4 className='sppannn'><BiRupee />150</h4>
-                                        <Link to="/view">   <button className='bnow'>Bid Now</button></Link>
+                                        <div className='wrapppdiv'>
+                                            <h3 className='headHide'>Convertible</h3>
+                                            <h4 className='sppannn'><BiRupee />250</h4></div>
+                                        <Link to="/view">    <button className='bnow'>Bid Now</button></Link>
                                     </div>
                                 </div>
 
@@ -234,8 +241,8 @@ export default function Navbar() {
                     <ChooseMore />
                 </div>
                 <div className='botomhead'>
-                    <div className='botmspon'><h1 style={{textAlign:"left"}}>Sponsor's</h1></div>
-                    </div>
+                    <div className='botmspon'><h1 style={{ textAlign: "left" }}>Sponsor's</h1></div>
+                </div>
                 <div className='botomcontent'  >
                     <Bottom />
                 </div>
