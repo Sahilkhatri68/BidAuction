@@ -102,7 +102,7 @@ export default function AddProducts() {
                                 </div> */}
                             </div>
 
-                            <div className="button">
+                            <div className="button" >
                                 <button defaultValue="Register" className='onpostdatabtn' onClick={()=>postdata()}>Submit</button>
                             </div>
                         </div>

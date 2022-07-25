@@ -90,9 +90,9 @@ export default function Navbar() {
                 </div>
             </div> */}
             <GlobalNav />
-            <div className='midSectionn' style={{ padding: 30, marginTop: 20 }}>
+            <div className='midSectionn'  >
                 <div className='MidHeading'>
-                    <h1>Explore  categories</h1>
+                    <h1 className='exploreHeading'>Explore  categories</h1>
                 </div>
                 <div className='outside'>
                     <div className='MidItems'>

@@ -68,7 +68,7 @@
 
 .footer-wrap p {
   font-size: 13px;
-  line-height: 24px;
+  line-height: 5px;
   color: #b3b3b3;
   margin-top: 15px;
 }
@@ -116,7 +116,6 @@
   color: #b3b3b3;
   font-size: 14px;
   position: relative;
-  padding-left: 30px;
   line-height: 30px;
 }
 

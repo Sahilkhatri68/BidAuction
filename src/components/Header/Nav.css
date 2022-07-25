@@ -33,12 +33,14 @@ body {
     font-size: 22px;
     color: #fff;
     padding: 10px 10px 10px 10px;
-    margin-left: 50px;
+    margin-left: 10px;
 }
-.mianlogoo{
+
+.mianlogoo {
     width: 15%;
     border-radius: 10%;
 }
+
 .naavaa>.naavaa-btn {
     display: none;
 }
@@ -47,12 +49,12 @@ body {
     display: inline;
     float: right;
     font-size: 18px;
-    margin-right:3%;
+    margin-right: 3%;
 }
 
 .naavaa>.naavaa-links>a {
     display: inline-block;
-    padding: 13px 10px 13px 10px;
+    padding: 20px 10px 13px 10px;
     text-decoration: none;
     color: #efefef;
     font-size: 16px;
@@ -110,6 +112,7 @@ body {
     .naavaa>.naavaa-links>a {
         display: block;
         width: 100%;
+        margin-left: 10px;
     }
 
     .naavaa>#naavaa-check:not(:checked)~.naavaa-links {
@@ -132,7 +135,7 @@ body {
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
+    padding: 20px 18px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -158,16 +161,19 @@ body {
     text-align: left;
     font-size: 14px;
 }
-.botomcontent{
+
+.botomcontent {
     display: flex;
     justify-content: space-evenly;
     margin: 10px;
     padding-bottom: 10%;
 }
-.botomhead{
+
+.botomhead {
     text-align: center;
     padding-bottom: 3%;
 }
+
 .topnaavaa a:hover,
 .drdwn:hover .dropbtn {
     background-color: rgba(0, 0, 0, 0.3);
@@ -258,48 +264,45 @@ body {
 }
 
 .MidItems {
-     
-  
+
+
     justify-content: space-between;
     width: 100%;
     margin: auto;
 }
 
-.headwrap{
+.headwrap {
     font-size: 20px;
 }
-.headHide{
+
+.headHide {
     font-size: 16px;
 
 }
+
 .productMid {
-    height: 150px;
-    width: 150px;
+
     border: none;
     border-radius: 50%;
-    background: linear-gradient(to bottom, #33ccff 39%, #00ffcc 77%);
+
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .productMidtwo {
-    height: 150px;
-    width: 150px;
+
     border: none;
     border-radius: 50%;
-    background: linear-gradient(to bottom, #33ccff 45%, #ffcccc 77%);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .productMidthree {
-    height: 150px;
-    width: 150px;
+
     border: none;
     border-radius: 50%;
-    background: linear-gradient(to bottom, #33ccff 45%, #ccffcc 77%);
 
     display: flex;
     justify-content: center;
@@ -307,63 +310,68 @@ body {
 }
 
 .productMidfour {
-    height: 150px;
-    width: 150px;
+
     border: none;
     border-radius: 50%;
-    background: linear-gradient(to bottom left, #33ccff 8%, #ccff99 77%);
 
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.productMidfive{
-    height: 150px;
-    width: 150px;
+
+.productMidfive {
+
     border: none;
     border-radius: 50%;
-    background: linear-gradient(to bottom left, #33ccff 38%, #ccccff 84%);
 
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.productMidsix{
-    height: 150px;
-    width: 150px;
+
+.productMidsix {
+
     border: none;
     border-radius: 50%;
-    background: linear-gradient(to bottom left, #33ccff 38%, #ffccff 84%);
 
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .imageInside {
     height: 150px;
     width: 150px;
 
 }
 
+.midSectionn {
+    /* padding: 30px; */
+    margin-Top: 20px;
+}
+
 .imageInside:hover {
-    transform: scale(1.2);
-    transition: 0.7s;
+    /* transform: scale(1.2);
+    transition: 0.7s; */
+    cursor: pointer;
 }
 
 .conttt {
     width: 150px;
     display: inline-block;
-    margin: 0px 20px;
+    margin: 2px 50px;
 
 }
-.outside{
+
+.outside {
     display: flex;
     justify-content: center;
     text-align: center;
 }
+
 .lowerHead {
     display: flex;
     align-items: center;
@@ -373,44 +381,55 @@ body {
 .para {
     font-size: 20px;
     color: black;
+    margin-top: 15px;
 }
-.bottmhead{
-    padding:10px;
+
+.bottmhead {
+    padding: 10px;
 }
-.parabottom{
-   margin-left: 20px;
+
+.parabottom {
+    margin-left: 20px;
 }
-.itemsbottoms{
+
+.itemsbottoms {
     display: flex;
     padding-bottom: 100px;
 }
-.leftbottom{
+
+.leftbottom {
     width: 50%;
 }
-.rightbottom{
+
+.rightbottom {
     width: 50%;
     padding: 10px;
 }
-.inisidebottom{
+
+.inisidebottom {
     padding: 10px;
 }
-.wwwatch{
+
+.wwwatch {
     border: none;
     border-radius: 10px;
     width: 100%;
 }
-.descdiv{
+
+.descdiv {
     margin-left: 20px;
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: space-evenly;    
+    justify-content: space-evenly;
 }
-.sppannn{
-    color: red;
+
+.sppannn {
+    color: black;
     font-size: 18px;
 }
- .bidBtn{
+
+.bidBtn {
     background-color: black;
     color: white;
     height: 35px;
@@ -419,47 +438,52 @@ body {
     cursor: pointer;
     font-size: 17px;
 }
- 
- .cameraimg{
+
+.cameraimg {
     width: 100%;
     border: none;
     border-radius: 10px;
- }
-  
- 
- .description{
+}
+
+
+.description {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 2px;
- }
- .leftrightitem{
+}
+
+.leftrightitem {
     overflow: hidden;
     margin-right: 20px;
     margin-left: 20px;
     margin-bottom: 20px;
- }
+}
 
- .card{
+.card {
     width: 40%;
     display: inline-block;
-    
- }
- .toprightitem{
+
+}
+
+.toprightitem {
     display: flex;
     align-items: center;
     justify-content: center;
- }
- .bidbanner{
-    margin-top: 8%;
+}
+
+.bidbanner {
+    margin-top: 4%;
     margin-bottom: 8%;
-    
- }
- .bannerImgg{
+
+}
+
+.bannerImgg {
     width: 100%;
-    
- }
- .bnow{
+
+}
+
+.bnow {
     background-color: black;
     color: white;
     height: 29px;
@@ -467,47 +491,54 @@ body {
     border-radius: 3px;
     cursor: pointer;
     font-size: 14px;
- }
- .rigitem{
+}
+
+.rigitem {
     display: inline-block;
     width: 50%;
- }
- 
- @media(max-width:1110px){
-    .MidItems{
+}
+
+@media(max-width:1110px) {
+    .MidItems {
         padding: 0px;
 
     }
-    
- }
-@media(max-width: 1070px){
-    .drdwn{
+
+}
+
+@media(max-width: 1070px) {
+    .drdwn {
         width: 100%;
     }
-    
+
 }
-@media(max-width:800px){
-    .headd{
+
+@media(max-width:800px) {
+    .headd {
         width: 80%;
     }
 }
-@media(max-width:950px){
-    .cameraimg{
+
+@media(max-width:950px) {
+    .cameraimg {
         width: 100%;
     }
 }
-@media(max-width:1050px){
-    .headHide{
+
+@media(max-width:1050px) {
+    .headHide {
         display: none;
     }
-    .description{
+
+    .description {
         height: 35px;
         margin-top: 15px;
         padding-bottom: 7px;
     }
 
 }
-@media(max-width:700px){
+
+@media(max-width:700px) {
     .bnow {
         background-color: black;
         color: white;
@@ -517,29 +548,45 @@ body {
         cursor: pointer;
         font-size: 11px;
     }
-
+    .conttt{
+        margin: 2px 14px;
+    }
 }
-@media(max-width:700px){
+
+@media(max-width:700px) {
     .itemsbottoms {
         display: block;
         padding-bottom: 100px;
     }
+
     .leftbottom {
         width: 100%;
         margin: auto;
     }
-    .rightbottom{
+
+    .rightbottom {
         width: 100%;
         padding: 0px;
     }
+
     .toprightitem {
         display: flex;
         margin-top: 25px;
         align-items: center;
         justify-content: center;
     }
+
+    .exploreHeading {
+        font-size: 20px;
+    }
+
+    .midSectionn {
+        padding: 0;
+        margin-Top: 0;
+    }
 }
-@media(max-width:1254px){
+
+@media(max-width:1254px) {
     .getting {
         height: 34px;
         width: 63px;
@@ -550,9 +597,20 @@ body {
         background-color: #0033ff;
     }
 }
-@media(max-width:990px){
-    .botomcontent{
+
+@media(max-width:990px) {
+    .botomcontent {
         display: block;
-        
+
+    }
+}
+
+@media(max-width:540px) {
+    .mianlogoo {
+        width: 14%;
+    }
+
+    .naavaa-title {
+        margin-left: 0px;
     }
 }

@@ -34,7 +34,7 @@ export default function Footer() {
               <a href="" className="links">
                 Payement
               </a>
-               
+
               <a href="" className="links">
                 Returns
               </a>
@@ -50,8 +50,8 @@ export default function Footer() {
               <a href="" className="links">
                 Sitemap
               </a>
-             
-              
+
+
             </div>
             <div className="contentt">
               <div className="about">Social</div>
@@ -75,20 +75,20 @@ export default function Footer() {
               <a href="" className="links">
                 Abc@gmail.com
               </a>
-                Abc@gmail.com
+              Abc@gmail.com
               <a href="" className="links">
               </a>
-                Abc@gmail.com
+              Abc@gmail.com
               <a href="" className="links">
               </a>
-                Abc@gmail.com
+              Abc@gmail.com
               <a href="" className="links">
               </a>
             </div>
             <div className="mailus">
               <div className="about">Address</div>
               <a href="" className="links">
-               Bidder (#56)
+                Bidder (#56)
               </a>
               <a href="" className="links">
                 Abc
@@ -104,7 +104,7 @@ export default function Footer() {
 
           <div className="row" style={{ margin: 0 }}>
             <div className="container-fluid">
-              <h3> &copy; 2022 <span className="sp">Auction</span> All right's reserveed</h3>
+              <p style={{ fontSize: 16 }}> &copy; 2022   Yashti Automobile Pvt Ltd</p>
             </div>
           </div>
         </div>
