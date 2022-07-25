@@ -175,7 +175,7 @@ export default function Navbar() {
                                 <h3 className='headHide'>Starting Bid</h3>
                                 <span className='sppannn'><h3 className='sppannn'><BiRupee />350.00</h3></span>
                             </div>
-                            <div>
+                            <div style={{marginRight:20}}>
                                 <Link to="/view">      <button className='bidBtn'>Bid Now</button></Link>
                             </div>
                         </div>
