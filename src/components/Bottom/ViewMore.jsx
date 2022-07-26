@@ -14,7 +14,7 @@ export default function ViewMore() {
             </div>
             <div className='viewmorecard' style={{marginBottom:150}}>
               
-                <div className='recentcard'>
+                <div className='recentcard'>  
                     <div className='recentcardImg'>
                         <img src={camaro} className="insideRecentImg"></img>
                     </div>

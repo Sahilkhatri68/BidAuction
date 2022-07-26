@@ -15,6 +15,7 @@ import Login from './components/Login/Login';
 import Signup from './components/Login/Sg';
 import Notfound from './components/NotfoundPage/NotFound';
 import Page from './components/page/Page';
+import MemberLogin from './components/Staff/MemberLogin';
 import AddAuction from './components/Staff/StaffAction/AddAuction';
 import AddProducts from './components/Staff/StaffAction/AddProducts';
 import AddUser from './components/Staff/StaffAction/AddUser';
@@ -58,6 +59,7 @@ export default function App() {
         <Route path="/upcoming" element={<Upcoming/>}/> 
         <Route path="/member" element={<Membership/>}/> {/* membership cards  */}
         <Route path="/bank" element={<Bank/>}/> 
+        <Route path="/memberlogin" element={<MemberLogin/>}/> {/* member login  */}
         <Route path="/stafflogin" element={<StaffLogin/>}/> {/* Staff login  */}
         <Route path="/staffprofile" element={<StaffProfile/>}/> {/* Staff profile */}
         <Route path="/globalnav" element={<GlobalNav/>}/>  {/* for global nav */}

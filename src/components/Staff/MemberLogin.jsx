@@ -1,10 +1,9 @@
 import React from 'react'
-import "./Stafflogin.css";
 import yashti from "../img/yashti.jpg";
 import { Link } from 'react-router-dom';
 import GlobalNav from '../view/GlobalNav';
-
-export default function StaffLogin() {
+import "./Memberlogin.css";
+export default function MemberLogin() {
     return (
         <>
         <GlobalNav/>
@@ -15,7 +14,7 @@ export default function StaffLogin() {
                     </div>
                     <div className='righthead'>
                         <div>
-                            <h1>Staff Login / <Link to= "/memberlogin"> Member</Link> </h1> 
+                            <h1> Member Login  </h1> 
                         </div>
                         <div className='ininput'>
                             <div className='inpheader'> Username</div>
