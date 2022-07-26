@@ -49,11 +49,11 @@ export default function Navbar() {
     };
     return (
         <>
- 
+
             <BodyNav />
             <div className='midSectionn'  >
                 <div className='MidHeading'>
-                    <h1 className='exploreHeading' style={{textAlign:"left"}}>Explore  categories</h1>
+                    <h1 className='exploreHeading' style={{ textAlign: "left" }}>Explore  categories</h1>
                 </div>
                 <div className='outside'>
                     <div className='MidItems'>
@@ -134,7 +134,7 @@ export default function Navbar() {
                                 <h3 className='headHide'>Starting Bid</h3>
                                 <span className='sppannn'><h3 className='sppannn'><BiRupee />350.00</h3></span>
                             </div>
-                            <div style={{marginRight:20}}>
+                            <div style={{ marginRight: 20 }}>
                                 <Link to="/view">      <button className='bidBtn'>Bid Now</button></Link>
                             </div>
                         </div>
@@ -146,21 +146,21 @@ export default function Navbar() {
                                 <div className="description">
                                     <div className='wrapppdiv'>
                                         <h3 className='headHide'>Coupe</h3>
-                                        <p className='propara'>Two door</p>
+                                        <p className='propara'>Economy</p>
                                         <h4 className='sppannn'><BiRupee />450</h4>
                                     </div>
-                                    <Link to="/view">   <button className='bnow'>Bid Now</button></Link>
+                                    <Link to="/view">   <button className='bnow'>Bid  </button></Link>
                                 </div>
                             </div>
                             <div className='leftrightitem  '>
                                 <img src={camera} alt="camera" className='cameraimg'></img>
                                 <div className="description">
-                                <div className='wrapppdiv'>
+                                    <div className='wrapppdiv'>
                                         <h3 className='headHide'>Sedan</h3>
                                         <p className='propara'>Confortable</p>
                                         <h4 className='sppannn'><BiRupee />450</h4>
                                     </div>
-                                    <Link to="/view">    <button className='bnow'>Bid Now</button></Link>
+                                    <Link to="/view">    <button className='bnow'>Bid  </button></Link>
                                 </div>
                             </div>
 
@@ -179,7 +179,7 @@ export default function Navbar() {
                                             <h3 className='headHide'>HatchBack</h3>
                                             <p className='propara'>Confortable</p>
                                             <h4 className='sppannn'><BiRupee />250</h4></div>
-                                        <Link to="/view">    <button className='bnow'>Bid Now</button></Link>
+                                        <Link to="/view">    <button className='bnow'>Bid  </button></Link>
                                     </div>
                                 </div>
                                 <div className='leftrightitem  '>
@@ -189,7 +189,7 @@ export default function Navbar() {
                                             <h3 className='headHide'>Convertible</h3>
                                             <p className='propara'>Confortable</p>
                                             <h4 className='sppannn'><BiRupee />250</h4></div>
-                                        <Link to="/view">    <button className='bnow'>Bid Now</button></Link>
+                                        <Link to="/view">    <button className='bnow'>Bid  </button></Link>
                                     </div>
                                 </div>
 

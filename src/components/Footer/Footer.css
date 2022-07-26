@@ -340,7 +340,7 @@ footer li {
 @media (max-width: 1453px) {
   .contentt {
     color: white;
-    width: 15%;
+    width: 35%;
   }
 
   .wrapperrr {
@@ -361,7 +361,7 @@ footer li {
 @media (max-width: 1290px) {
   .contentt {
     color: white;
-    width: 22%;
+    width: 33%;
   }
   .wrapperrr {
     display: flex;

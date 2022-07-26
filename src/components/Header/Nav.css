@@ -463,7 +463,7 @@ body {
 }
 
 .cameraimg {
-    width: 100%;
+    width: 87%;
     border: none;
     border-radius: 10px;
 }
@@ -473,7 +473,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 2px;
+    background-color: #f4f5fc;
+    width: 87%;
 }
 
 .leftrightitem {
@@ -637,5 +638,27 @@ body {
 
     .naavaa-title {
         margin-left: 0px;
+    }
+}
+@media(max-width:950px){
+    .description{
+        width: 99%;
+    }
+}
+@media(max-width:830px){
+    .description{
+        width: 99%;
+    }
+    .bnow {
+        background-color: #0033ff;
+        color: white;
+        height: 21px;
+        width: 39px;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: 12px;
+        border: none;
+        text-align: center;
+        align-items: center;
     }
 }
