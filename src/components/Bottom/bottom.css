@@ -3,20 +3,22 @@
      width: 30%;
      background-image: url("../img/backgroundcard.png");
      background-size: cover;
-     padding: 15px;
-     margin: 10px;
+     padding: 0px;
+     margin: 4px;
      border-radius: 15px;
  }
 .rightimgbottom{
     width: 100%;
 }
  .leftbottomcomp {
-     width: 80%;
+     width: 100%;
      padding: 10px;
  }
 
  .rightbottomcomp {
      padding: 10px;
+     width: 40%;
+     margin-top: 10px;
 
  }
 
@@ -30,6 +32,7 @@
      .leftbottomcomp {
          width: 100%;
          margin: auto;
+         
      }
 
      .bottomcomp {
@@ -45,3 +48,33 @@
         font-size: 14px;
      }
  }
+ @media(max-width:1130px){
+    .leftbottomcomp{
+        width: 75%;
+    }
+ }
+ @media(max-width:991px){
+    .rightbottomcomp{
+        width: 19%;
+    }
+ }
+ @media(max-width:500px){
+    .rightbottomcomp{
+        width: 30%;
+        margin-top: 10px;
+    }
+    .yashtiheadbotom{
+        font-size: 16px;
+    } 
+    .yashtiparabtm{
+        font-weight: 400;
+    }
+    .bottomcomp{
+        padding: 0px;
+    }
+ }
+ @media(max-width:1161px){
+    .yashtiheadbotom{
+        font-size: 20px;
+    }
+}

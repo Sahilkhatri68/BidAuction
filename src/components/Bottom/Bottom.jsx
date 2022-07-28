@@ -9,10 +9,10 @@ export default function Bottom() {
             <div className='bottomcomp'>
                 <div className='leftbottomcomp'>
                     <div className='textdiv'>
-                        <h3>
-                            Modern Auctions. Co.
+                        <h3 className='yashtiheadbotom'>
+                            Yashti Automobile
                         </h3>
-                        <p>Michigan, United States (US)</p>
+                        <p className='yashtiparabtm'>India</p>
                     </div>
                 </div>
                 <div className='rightbottomcomp'>
@@ -22,10 +22,10 @@ export default function Bottom() {
             <div className='bottomcomp'>
                 <div className='leftbottomcomp'>
                     <div className='textdiv'>
-                        <h3>
-                            Modern Auctions. Co.
+                        <h3 className='yashtiheadbotom' >
+                            Yashti Automobile
                         </h3>
-                        <p>Michigan, United States (US)</p>
+                        <p className='yashtiparabtm'>India</p>
                     </div>
                 </div>
                 <div className='rightbottomcomp'>
@@ -35,10 +35,10 @@ export default function Bottom() {
             <div className='bottomcomp'>
                 <div className='leftbottomcomp'>
                     <div className='textdiv'>
-                        <h3>
-                            Modern Auctions. Co.
+                        <h3 className='yashtiheadbotom'>
+                            Yashti Automobile
                         </h3>
-                        <p>Michigan, United States (US)</p>
+                        <p className='yashtiparabtm'>India</p>
                     </div>
                 </div>
                 <div className='rightbottomcomp'>

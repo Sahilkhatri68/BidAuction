@@ -662,3 +662,9 @@ body {
         align-items: center;
     }
 }
+@media(max-width:500px){
+    .imageInside{
+        width: 130px;
+        height: 130px;
+    }
+}

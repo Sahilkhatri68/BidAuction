@@ -69,7 +69,10 @@
 
 .footer-wrap p {
   font-size: 18px;
-  color: #b3b3b3;
+  color: white;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 400;
+
    
   margin-right: 10px;
 }
@@ -303,7 +306,7 @@ footer li {
   color: #fff;
   display: block;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .linespace {
@@ -336,7 +339,11 @@ footer li {
   border-radius: 5px;
   background-color: #0033ff;
 }
-
+.socialicondiv{
+  height: 30px;
+  width: 20px;
+  margin-right: 3px;
+}
 @media (max-width: 1453px) {
   .contentt {
     color: white;

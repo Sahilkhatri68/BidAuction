@@ -81,7 +81,7 @@ export default function BodyNav() {
                                 </Select>
                             </FormControl>
                         </div>
-                        <input className='inputinst' placeholder="I'm looking for..."></input>
+                        <input className='inputinst' placeholder="I'm looking for...car "></input>
                         <button className='searchinst'>Search</button>
                     </div>
                     <div>

@@ -3,6 +3,10 @@ import "./Footer.css";
 import { Link } from "react-router-dom";
 import { BsTelephone } from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai';
+import { FaFacebook,FaSnapchat } from 'react-icons/fa';
+import { AiFillTwitterCircle } from 'react-icons/ai';
+import { BsInstagram ,BsWhatsapp} from 'react-icons/bs';
+import { FiMail} from 'react-icons/fi';
 // import aayakartLogo from "../Images/aayakartLogo.png";
 // import { IoBagHandleSharp } from "react-icons/io5";
 // import { AiFillQuestionCircle } from "react-icons/ai";
@@ -37,15 +41,36 @@ export default function Footer() {
                 About Us
               </Link>
             </div>
+            <div className="contentt">
+              <div className="about">Social Login</div>
+               
+              <Link to="/contactus" className="links">
+                <FaFacebook className="socialicondiv"/> Facebook
+              </Link>
+              
+               
+              <Link to="/aboutus" className="links">
+                <AiFillTwitterCircle className="socialicondiv"/> Twitter
+              </Link>
+              <Link to="/aboutus" className="links">
+                <BsInstagram className="socialicondiv"/> Instagram
+              </Link>
+              <Link to="/aboutus" className="links">
+                <FaSnapchat className="socialicondiv"/> Snapchat
+              </Link>
+              <Link to="/aboutus" className="links">
+                <BsWhatsapp className="socialicondiv"/> Whatsapp
+              </Link>
+            </div>
             <div className="linespace" />
             <div className="blank" />
-            <div className="mailus">
+            {/* <div className="mailus">
               <div className="about">Mail us</div>
               <a href="" className="links">
-               yashtiautomobile@gmail.com
+                <FiMail/> yashtiautomobile@gmail.com
               </a>
               
-            </div>
+            </div> */}
             <div className="mailus">
               <div className="about">Notification</div>
               <p>Join us to get latest notification </p>
