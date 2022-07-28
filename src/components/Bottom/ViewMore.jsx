@@ -21,7 +21,7 @@ export default function ViewMore() {
                     <div className="recentcardData">
                         <p style={{ color: "gray" }}>Best muscel car ever built in history</p>
                         <h2>Camaro</h2>
-                        <Link to="/">  <p>View More <AiOutlineArrowRight /></p></Link>
+                        <Link to="/product">  <p>View More <AiOutlineArrowRight /></p></Link>
                     </div>
                 </div>
                 <div className='recentcard'>
@@ -31,7 +31,7 @@ export default function ViewMore() {
                     <div className="recentcardData">
                         <p style={{ color: "gray" }}>Best muscel car ever built in history</p>
                         <h2>Camaro</h2>
-                        <Link to="/">  <p>View More <AiOutlineArrowRight /></p></Link>
+                        <Link to="/product">  <p>View More <AiOutlineArrowRight /></p></Link>
                     </div>
                 </div>
                 <div className='recentcard'>
@@ -41,7 +41,7 @@ export default function ViewMore() {
                     <div className="recentcardData">
                         <p style={{ color: "gray" }}>Best muscel car ever built in history</p>
                         <h2>Camaro</h2>
-                        <Link to="/">  <p>View More <AiOutlineArrowRight /></p></Link>
+                        <Link to="/product">  <p>View More <AiOutlineArrowRight /></p></Link>
                     </div>
                 </div>
                 <div className='recentcard'>
@@ -51,7 +51,7 @@ export default function ViewMore() {
                     <div className="recentcardData">
                         <p style={{ color: "gray" }}>Best muscel car ever built in history</p>
                         <h2>Camaro</h2>
-                        <Link to="/">  <p>View More <AiOutlineArrowRight /></p></Link>
+                        <Link to="/product">  <p>View More <AiOutlineArrowRight /></p></Link>
                     </div>
                 </div>
             </div></>

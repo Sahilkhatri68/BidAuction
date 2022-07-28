@@ -9,8 +9,8 @@ export default function ChooseMore() {
         <>
             <div >
                 <div className='upcomingdivv'>
-                <h1 style={{ textAlign: "left"}}>Upcoming Auction's </h1>
-                <p>See what's popular across thousand of items</p>
+                    <h1 style={{ textAlign: "left" }}>Upcoming Auction's </h1>
+                    <p>See what's popular across thousand of items</p>
                 </div>
             </div>
             <div className='choosemore' style={{ marginBottom: 70 }}>
@@ -22,8 +22,8 @@ export default function ChooseMore() {
                         <p style={{ color: "gray" }}>Best muscel car ever built in history</p>
                         <h2>Audi</h2>
                         <div className='btnandview'>
-                            <Link to="/">  <p>Luxury <AiOutlineArrowRight /></p></Link>
-                            <button className='bnowbottom'>Bid Now</button>
+                            <Link to="/view">  <p>Luxury <AiOutlineArrowRight /></p></Link>
+                            <Link to="/product">  <Link to="/product"> <button className='bnowbottom'>Bid Now</button></Link></Link>
                         </div>
                     </div>
                 </div>
@@ -35,8 +35,8 @@ export default function ChooseMore() {
                         <p style={{ color: "gray" }}>Best muscel car ever built in history</p>
                         <h2>Audi</h2>
                         <div className='btnandview'>
-                            <Link to="/">  <p>Sports <AiOutlineArrowRight /></p></Link>
-                            <button className='bnowbottom'>Bid Now</button>
+                            <Link to="/view">  <p>Sports <AiOutlineArrowRight /></p></Link>
+                             <Link to="/product"> <button className='bnowbottom'>Bid Now</button></Link>
                         </div>
                     </div>
                 </div>
@@ -48,8 +48,8 @@ export default function ChooseMore() {
                         <p style={{ color: "gray" }}>Best muscel car ever built in history</p>
                         <h2>Audi</h2>
                         <div className='btnandview'>
-                            <Link to="/">  <p>Sports <AiOutlineArrowRight /></p></Link>
-                            <button className='bnowbottom'>Bid Now</button>
+                            <Link to="/view">  <p>Sports <AiOutlineArrowRight /></p></Link>
+                             <Link to="/product"> <button className='bnowbottom'>Bid Now</button></Link>
                         </div>
                     </div>
                 </div>
@@ -61,8 +61,8 @@ export default function ChooseMore() {
                         <p style={{ color: "gray" }}>Best muscel car ever built in history</p>
                         <h2>Audi</h2>
                         <div className='btnandview'>
-                            <Link to="/">  <p>Economy <AiOutlineArrowRight /></p></Link>
-                            <button className='bnowbottom'>Bid Now</button>
+                            <Link to="/view">  <p>Economy <AiOutlineArrowRight /></p></Link>
+                             <Link to="/product"> <button className='bnowbottom'>Bid Now</button></Link>
                         </div>
 
                     </div>
