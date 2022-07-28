@@ -124,11 +124,12 @@
   }
 
   .editbtn {
+      background-color: #03f;
       border: none;
       border-radius: 3px;
-      background-color: #212529b8;
-      color: white;
-      width: 49px;
-      background: black;
-      font-size: 15px;
+      color: #fff;
+      cursor: pointer;
+      font-size: 14px;
+      height: 29px;
+      width: 65px;
   }
