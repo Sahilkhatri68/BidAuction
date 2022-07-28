@@ -97,7 +97,7 @@ export default function Login() {
                                 >Login</button>
                                 <div className='Caccount'>
                                     <p style={{ color: "black", marginTop: 30, textAlign: "center" }}>Or &nbsp; Create Account </p>
-                                    <Link to="/signup">
+                                    <Link to="/cosign">
                                         <button
 
                                             defaultValue="Log In"
