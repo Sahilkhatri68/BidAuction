@@ -272,14 +272,14 @@ body {
 .headwrap {
     font-size: 20px;
     /* color: #0b1133; */
-    color: #808080;
+    color:black;
     font-weight: 600;
 }
 
 
 .headHide {
     font-size: 16px;
-    color: #808080;
+    color: black;
     font-weight: 600;
     margin: 0px;
     padding: 0px;
@@ -446,9 +446,10 @@ body {
     font-size: 18px;
 }
 .propara{
-    color: #808080;
+    color: black;
         margin: 0;
         padding: 0;
+        font-size: 13px;
 }
 
 .bidBtn {
@@ -551,9 +552,7 @@ body {
 }
 
 @media(max-width:1050px) {
-    .headHide {
-        display: none;
-    }
+     
 
     .description {
         height: 35px;
@@ -666,5 +665,10 @@ body {
     .imageInside{
         width: 130px;
         height: 130px;
+    }
+}
+@media(max-width:1100px){
+    .propara{
+        display: none;
     }
 }

@@ -131,11 +131,13 @@ export default function Navbar() {
                         <div className='descdiv'>
                             <div className='wrapppdiv'>
                                 <h2 className='headwrap'>Suv</h2>
+                                <p className='propara'>Sports</p>
+
                                 <h3 className='headHide'>Starting Bid</h3>
                                 <span className='sppannn'><h3 className='sppannn'><BiRupee />350.00</h3></span>
                             </div>
                             <div style={{ marginRight: 20 }}>
-                                <Link to="/view">      <button className='bidBtn'>Bid Now</button></Link>
+                                <Link to="/product">      <button className='bidBtn'>Bid Now</button></Link>
                             </div>
                         </div>
                     </div>
@@ -147,9 +149,11 @@ export default function Navbar() {
                                     <div className='wrapppdiv'>
                                         <h3 className='headHide'>Coupe</h3>
                                         <p className='propara'>Economy</p>
+                                        <p className='propara'>Starting Bid</p>
+
                                         <h4 className='sppannn'><BiRupee />450</h4>
                                     </div>
-                                    <Link to="/view">   <button className='bnow'>Bid  </button></Link>
+                                    <Link to="/product">   <button className='bnow'>Bid  </button></Link>
                                 </div>
                             </div>
                             <div className='leftrightitem  '>
@@ -158,9 +162,11 @@ export default function Navbar() {
                                     <div className='wrapppdiv'>
                                         <h3 className='headHide'>Sedan</h3>
                                         <p className='propara'>Confortable</p>
+                                        <p className='propara'>Starting Bid</p>
+
                                         <h4 className='sppannn'><BiRupee />450</h4>
                                     </div>
-                                    <Link to="/view">    <button className='bnow'>Bid  </button></Link>
+                                    <Link to="/product">    <button className='bnow'>Bid  </button></Link>
                                 </div>
                             </div>
 
@@ -178,8 +184,9 @@ export default function Navbar() {
                                         <div className='wrapppdiv'>
                                             <h3 className='headHide'>HatchBack</h3>
                                             <p className='propara'>Confortable</p>
+                                            <p className='propara'>Starting Bid</p>
                                             <h4 className='sppannn'><BiRupee />250</h4></div>
-                                        <Link to="/view">    <button className='bnow'>Bid  </button></Link>
+                                        <Link to="/product">    <button className='bnow'>Bid  </button></Link>
                                     </div>
                                 </div>
                                 <div className='leftrightitem  '>
@@ -188,8 +195,10 @@ export default function Navbar() {
                                         <div className='wrapppdiv'>
                                             <h3 className='headHide'>Convertible</h3>
                                             <p className='propara'>Confortable</p>
+                                            <p className='propara'>Starting Bid</p>
+
                                             <h4 className='sppannn'><BiRupee />250</h4></div>
-                                        <Link to="/view">    <button className='bnow'>Bid  </button></Link>
+                                        <Link to="/product">    <button className='bnow'>Bid  </button></Link>
                                     </div>
                                 </div>
 

@@ -66,12 +66,14 @@
 }
 
 .bifbtnn {
-   border: 0px;
-   border-radius: 10px;
-   background: black;
-   color: white;
-   width: 70px;
-   font-size: 15px;
+   background-color: #03f;
+   border: none;
+   border-radius: 3px;
+   color: #fff;
+   cursor: pointer;
+   font-size: 14px;
+   height: 29px;
+   width: 65px;
 }
 
 @media(max-width:992px) {

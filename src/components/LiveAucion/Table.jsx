@@ -195,6 +195,7 @@ export default function Table() {
                                 showBullets={true}
                                 showNavs={true}
                             />
+                               
                             <div className='imgtitlee'>
                                 <div><BiRupee />34000 </div>
                                 <Link to={"/product"}>     <button className='bifbtnn'>Visit</button></Link>
@@ -248,6 +249,7 @@ export default function Table() {
                                 showBullets={true}
                                 showNavs={true}
                             />
+                        
                             <div className='imgtitlee'>
                                 <div><BiRupee />34000 </div>
                                 <Link to={"/product"}>     <button className='bifbtnn'>Visit</button></Link>

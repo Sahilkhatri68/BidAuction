@@ -28,6 +28,7 @@ export default function Footer() {
                 <AiOutlineMail /> &nbsp; Yashtiautomobile@gmail.com</div>
             </div>
 
+      
 
             <div className="contentt">
               <div className="about">Useful links</div>
