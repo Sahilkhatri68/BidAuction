@@ -9,6 +9,7 @@ import gt1 from "../img/gt1.jpg";
 import mti from "../img/mti.jpg";
 import { BiRupee } from 'react-icons/bi';
 import { Link, useParams } from 'react-router-dom';
+import "./table.css"
 import { TbCalendarEvent } from 'react-icons/tb';
 import { FiEdit } from 'react-icons/fi';
 import { RiTimerFlashLine } from 'react-icons/ri';
@@ -183,7 +184,7 @@ export default function Table() {
                     <div className='rightview'>
 
                         <h3>Live Auction Details</h3>
-                      
+
                         <div className='datadiv'  >
 
                             <SimpleImageSlider
@@ -201,23 +202,14 @@ export default function Table() {
                             <div className='actionbtndiv'>
                                 <div className='actindata'>
 
-                                    <div>
-                                        <Link to="/editauction"> <IconButton aria-label="delete" size="small">
-                                            <FiEdit className='iconstylediv' />
-                                        </IconButton></Link>
-                                    </div>
+
                                     <div>
                                         <RiTimerFlashLine className='iconstylediv' /> 23:12
                                     </div>
-                                    <div>
-                                        <IconButton aria-label="delete" size="small">
-                                            <DeleteIcon className='iconstylediv' />
-                                        </IconButton>
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
-                         
                         <div className='datadiv'  >
 
                             <SimpleImageSlider
@@ -235,128 +227,17 @@ export default function Table() {
                             <div className='actionbtndiv'>
                                 <div className='actindata'>
 
-                                    <div>
-                                        <Link to="/editauction"> <IconButton aria-label="delete" size="small">
-                                            <FiEdit className='iconstylediv' />
-                                        </IconButton></Link>
-                                    </div>
+
                                     <div>
                                         <RiTimerFlashLine className='iconstylediv' /> 23:12
                                     </div>
-                                    <div>
-                                        <IconButton aria-label="delete" size="small">
-                                            <DeleteIcon className='iconstylediv' />
-                                        </IconButton>
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
-                          
-                        <div className='datadiv'  >
 
-                            <SimpleImageSlider
-                                width={250}
-
-                                height={250}
-                                images={images}
-                                showBullets={true}
-                                showNavs={true}
-                            />
-                            <div className='imgtitlee'>
-                                <div><BiRupee />34000 </div>
-                                <Link to={"/product"}>     <button className='bifbtnn'>Visit</button></Link>
-                            </div>
-                            <div className='actionbtndiv'>
-                                <div className='actindata'>
-
-                                    <div>
-                                        <Link to="/editauction"> <IconButton aria-label="delete" size="small">
-                                            <FiEdit className='iconstylediv' />
-                                        </IconButton></Link>
-                                    </div>
-                                    <div>
-                                        <RiTimerFlashLine className='iconstylediv' /> 23:12
-                                    </div>
-                                    <div>
-                                        <IconButton aria-label="delete" size="small">
-                                            <DeleteIcon className='iconstylediv' />
-                                        </IconButton>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                          
-                        <div className='datadiv'  >
-
-                            <SimpleImageSlider
-                                width={250}
-
-                                height={250}
-                                images={images}
-                                showBullets={true}
-                                showNavs={true}
-                            />
-                            <div className='imgtitlee'>
-                                <div><BiRupee />34000 </div>
-                                <Link to={"/product"}>     <button className='bifbtnn'>Visit</button></Link>
-                            </div>
-                            <div className='actionbtndiv'>
-                                <div className='actindata'>
-
-                                    <div>
-                                        <Link to="/editauction"> <IconButton aria-label="delete" size="small">
-                                            <FiEdit className='iconstylediv' />
-                                        </IconButton></Link>
-                                    </div>
-                                    <div>
-                                        <RiTimerFlashLine className='iconstylediv' /> 23:12
-                                    </div>
-                                    <div>
-                                        <IconButton aria-label="delete" size="small">
-                                            <DeleteIcon className='iconstylediv' />
-                                        </IconButton>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                          
-                        <div className='datadiv'  >
-
-                            <SimpleImageSlider
-                                width={250}
-
-                                height={250}
-                                images={images}
-                                showBullets={true}
-                                showNavs={true}
-                            />
-                            <div className='imgtitlee'>
-                                <div><BiRupee />34000 </div>
-                                <Link to={"/product"}>     <button className='bifbtnn'>Visit</button></Link>
-                            </div>
-                            <div className='actionbtndiv'>
-                                <div className='actindata'>
-
-                                    <div>
-                                        <Link to="/editauction"> <IconButton aria-label="delete" size="small">
-                                            <FiEdit className='iconstylediv' />
-                                        </IconButton></Link>
-                                    </div>
-                                    <div>
-                                        <RiTimerFlashLine className='iconstylediv' /> 23:12
-                                    </div>
-                                    <div>
-                                        <IconButton aria-label="delete" size="small">
-                                            <DeleteIcon className='iconstylediv' />
-                                        </IconButton>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                          
                         
-                        
-                          
+
                         <div className='datadiv'  >
 
                             <SimpleImageSlider
@@ -374,22 +255,42 @@ export default function Table() {
                             <div className='actionbtndiv'>
                                 <div className='actindata'>
 
-                                    <div>
-                                        <Link to="/editauction"> <IconButton aria-label="delete" size="small">
-                                            <FiEdit className='iconstylediv' />
-                                        </IconButton></Link>
-                                    </div>
+
                                     <div>
                                         <RiTimerFlashLine className='iconstylediv' /> 23:12
                                     </div>
-                                    <div>
-                                        <IconButton aria-label="delete" size="small">
-                                            <DeleteIcon className='iconstylediv' />
-                                        </IconButton>
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
+
+                        <div className='datadiv'  >
+
+                            <SimpleImageSlider
+                                width={250}
+
+                                height={250}
+                                images={images}
+                                showBullets={true}
+                                showNavs={true}
+                            />
+                            <div className='imgtitlee'>
+                                <div><BiRupee />34000 </div>
+                                <Link to={"/product"}>     <button className='bifbtnn'>Visit</button></Link>
+                            </div>
+                            <div className='actionbtndiv'>
+                                <div className='actindata'>
+
+
+                                    <div>
+                                        <RiTimerFlashLine className='iconstylediv' /> 23:12
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
 
 
 
