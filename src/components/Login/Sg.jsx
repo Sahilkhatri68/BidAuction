@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "./Signup.css";
 import axios from 'axios';
-import yashti from "../img/yashti.jpg"
+import city from "../img/city.jpg"
 import { Link } from 'react-router-dom';
 import GlobalNav from '../view/GlobalNav';
 
@@ -174,7 +174,7 @@ export default function Signup() {
                                         <div className="info-wrap w-100 p-5 img">
                                             <img
                                                 className="Alogos"
-                                                src={yashti}
+                                                src={city}
                                                 alt="Alogo"
                                             ></img>
                                         </div>

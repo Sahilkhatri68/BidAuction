@@ -1,5 +1,5 @@
 import React from 'react'
-import yashti from "../img/yashti.jpg";
+import fortuner from "../img/fortuner.jpg";
 import { Link } from 'react-router-dom';
 import GlobalNav from '../view/GlobalNav';
 import "./Memberlogin.css";
@@ -10,7 +10,7 @@ export default function MemberLogin() {
             <div className='forback'>
                 <div className='headcont'>
                     <div className='lefthead'>
-                        <Link to="/"   ><img src={yashti} className="yashimg"></img></Link>
+                        <Link to="/"   ><img src={fortuner} className="yashimg"></img></Link>
                     </div>
                     <div className='righthead'>
                         <div>

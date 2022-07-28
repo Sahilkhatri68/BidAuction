@@ -104,9 +104,16 @@
         border-bottom: 0;
       }
     }
+ .actindata{
+  display: flex;
+  justify-content: space-between;
+ }
     
     
-    
+    .iconstylediv{
+      font-size: 20px;
+      color: black;
+    }
     
     
     

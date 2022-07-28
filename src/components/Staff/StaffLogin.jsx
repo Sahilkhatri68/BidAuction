@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Stafflogin.css";
-import yashti from "../img/yashti.jpg";
+import brezza from "../img/brezza.jpg";
 import { Link } from 'react-router-dom';
 import GlobalNav from '../view/GlobalNav';
 
@@ -11,7 +11,7 @@ export default function StaffLogin() {
             <div className='forback'>
                 <div className='headcont'>
                     <div className='lefthead'>
-                        <Link to="/"   ><img src={yashti} className="yashimg"></img></Link>
+                        <Link to="/"   ><img className="yashimg" src={brezza} ></img></Link>
                     </div>
                     <div className='righthead'>
                         <div>

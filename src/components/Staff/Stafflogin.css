@@ -62,7 +62,9 @@
     width: 80px;
     /* background-color: #e2c14e; */
  }
-
+.yashimg{
+   width: 100%;
+}
  .logbtn:focus {
     background-color: rgb(80, 80, 80);
     color: white;

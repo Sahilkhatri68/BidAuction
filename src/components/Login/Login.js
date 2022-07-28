@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import "./Login.css"
 import axios from 'axios';
 
-import bgg from "./bg_1.jpg";
 import { Link } from 'react-router-dom';
 
 import { Axios } from 'axios';

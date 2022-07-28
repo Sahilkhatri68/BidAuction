@@ -11,6 +11,9 @@ import Footer from './components/Footer/Footer';
 import ContactUs from './components/Footer/FooterPages/ContactUs';
 import Navbar from './components/Header/Nav';
 import Table from './components/LiveAucion/Table';
+import CoPlans from './components/Login/CoPlans';
+import Coplatinum from './components/Login/Coplatinum';
+import Cosign from './components/Login/CoSign';
 import Login from './components/Login/Login';
 import Signup from './components/Login/Sg';
 import Notfound from './components/NotfoundPage/NotFound';
@@ -79,6 +82,9 @@ export default function App() {
         <Route path="/choose" element={<ChooseMore/>}/>  {/*Choosemore page  */}
         <Route path="/bodynav" element={<BodyNav/>}/>  {/*main nav on home page  */}
         <Route path="/aboutus" element={<Aboutus/>}/>  {/*about us page */}
+        <Route path="/cosign" element={<Cosign/>}/>  {/*copart like signup page  */}
+        <Route path="/coplan" element={<CoPlans/>}/>  {/*copart like MEmbership page*/}
+        <Route path="/coplatinum" element={<Coplatinum/>}/>  {/*copart platinum like MEmbership page*/}
         
 
 

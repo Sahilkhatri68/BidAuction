@@ -58,7 +58,7 @@ export default function View() {
 
     async function GetUser() {
         try {
-            const response = await axios.get(`https://daupay.com/api/products`);
+            const response = await axios.get(`https://shoppingcontent.googleapis.com/content/v2.1/{merchantId}/products/`);
             setProduct(response.data)
         } catch (error) {
             console.error(error);

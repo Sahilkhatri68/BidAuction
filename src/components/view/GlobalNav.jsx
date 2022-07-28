@@ -34,14 +34,8 @@ export default function GlobalNav() {
 
                         </div>
                     </div>
-
-                    <div className="drdwn">
-                        <Link to="/member">  <button className="dropbtn">Plans
-
-                        </button></Link>
-
-                    </div>
-                    <Link to="/signup"> <button className='Sbtn'>Signup</button></Link>
+ 
+                    <Link to="/cosign"> <button className='Sbtn'>Signup</button></Link>
                     <Link to="/login"><button className='Lbtn'>Login</button></Link>
                     <Link to="/userprofile">  <FaUserCircle style={{width:25,height:25}} /></Link>
                 </div>

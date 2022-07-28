@@ -14,8 +14,7 @@ export default function Bank() {
             <div className='med'>
                 <div className=' insidemed'>
                     <h2 className='hedmed'><RiAuctionLine /> Bank Auction's details </h2>
-                    <div className='soinimgs'>
-                        <img src={yashti} className="imgofsoon"></img></div>
+                    
                 </div>
 
             </div>
