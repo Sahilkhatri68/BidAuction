@@ -80,14 +80,14 @@ export default function View() {
             console.error(error);
         }
     }
-   
+
 
     return (
         <>
 
             <div  >
 
-              <GlobalNav/>
+                <GlobalNav />
 
 
                 <div className='mainView'>
@@ -175,7 +175,7 @@ export default function View() {
                     </div>
 
                     <div className='rightview'>
-                        {product.map((item) => {
+                        {/* {product.map((item) => {
                             return (
                                 <div className='datadiv'  >
                                     <div>{item.productname}</div>
@@ -194,8 +194,127 @@ export default function View() {
                                 </div>
 
                             )
-                        })}
+                        })} */}
+                        <div className='datadiv'  >
+                          
+                            <SimpleImageSlider
+                                width={250}
 
+                                height={250}
+                                images={images}
+                                showBullets={true}
+                                showNavs={true}
+                            />
+                            <div className='imgtitlee'>
+                                <div><BiRupee /> 45000</div>
+                                <Link to={"/product"}>     <button className='bifbtnn'>Bid now</button></Link>
+                            </div>
+                        </div>
+                        <div className='datadiv'  >
+                          
+                            <SimpleImageSlider
+                                width={250}
+
+                                height={250}
+                                images={images}
+                                showBullets={true}
+                                showNavs={true}
+                            />
+                            <div className='imgtitlee'>
+                                <div><BiRupee /> 45000</div>
+                                <Link to={"/product"}>     <button className='bifbtnn'>Bid now</button></Link>
+                            </div>
+                        </div>
+                        <div className='datadiv'  >
+                          
+                            <SimpleImageSlider
+                                width={250}
+
+                                height={250}
+                                images={images}
+                                showBullets={true}
+                                showNavs={true}
+                            />
+                            <div className='imgtitlee'>
+                                <div><BiRupee /> 45000</div>
+                                <Link to={"/product"}>     <button className='bifbtnn'>Bid now</button></Link>
+                            </div>
+                        </div>
+                        <div className='datadiv'  >
+                          
+                            <SimpleImageSlider
+                                width={250}
+
+                                height={250}
+                                images={images}
+                                showBullets={true}
+                                showNavs={true}
+                            />
+                            <div className='imgtitlee'>
+                                <div><BiRupee /> 45000</div>
+                                <Link to={"/product"}>     <button className='bifbtnn'>Bid now</button></Link>
+                            </div>
+                        </div>
+                        <div className='datadiv'  >
+                          
+                            <SimpleImageSlider
+                                width={250}
+
+                                height={250}
+                                images={images}
+                                showBullets={true}
+                                showNavs={true}
+                            />
+                            <div className='imgtitlee'>
+                                <div><BiRupee /> 45000</div>
+                                <Link to={"/product"}>     <button className='bifbtnn'>Bid now</button></Link>
+                            </div>
+                        </div>
+                        <div className='datadiv'  >
+                          
+                            <SimpleImageSlider
+                                width={250}
+
+                                height={250}
+                                images={images}
+                                showBullets={true}
+                                showNavs={true}
+                            />
+                            <div className='imgtitlee'>
+                                <div><BiRupee /> 45000</div>
+                                <Link to={"/product"}>     <button className='bifbtnn'>Bid now</button></Link>
+                            </div>
+                        </div>
+                        <div className='datadiv'  >
+                          
+                            <SimpleImageSlider
+                                width={250}
+
+                                height={250}
+                                images={images}
+                                showBullets={true}
+                                showNavs={true}
+                            />
+                            <div className='imgtitlee'>
+                                <div><BiRupee /> 45000</div>
+                                <Link to={"/product"}>     <button className='bifbtnn'>Bid now</button></Link>
+                            </div>
+                        </div>
+                        <div className='datadiv'  >
+                          
+                            <SimpleImageSlider
+                                width={250}
+
+                                height={250}
+                                images={images}
+                                showBullets={true}
+                                showNavs={true}
+                            />
+                            <div className='imgtitlee'>
+                                <div><BiRupee /> 45000</div>
+                                <Link to={"/product"}>     <button className='bifbtnn'>Bid now</button></Link>
+                            </div>
+                        </div>
 
 
                     </div>

@@ -60,7 +60,7 @@ export default function Navbar() {
                         <div className='conttt'>
                             <div className='productMid'>
                                 <div className='imgMid'>
-                                    <img src={p} className="imageInside" alt="img" style={{ borderRadius: 100 }}></img>
+                                    <Link to="/view">   <img src={p} className="imageInside" alt="img" style={{ borderRadius: 100 }}></img></Link>
                                 </div>
 
                             </div>
@@ -70,7 +70,7 @@ export default function Navbar() {
                         <div className='conttt'>
                             <div className='productMidtwo'>
                                 <div className='imgMid'>
-                                    <img src={iop} className="imageInside" style={{ borderRadius: 100 }} alt="img"></img>
+                                    <Link to="/view">     <img src={iop} className="imageInside" style={{ borderRadius: 100 }} alt="img"></img></Link>
                                 </div>
 
                             </div>
@@ -79,7 +79,7 @@ export default function Navbar() {
                         <div className='conttt'>
                             <div className='productMidthree'>
                                 <div className='imgMid'>
-                                    <img src={car} className="imageInside" style={{ borderRadius: 100 }} alt="img"></img>
+                                    <Link to="/view">     <img src={car} className="imageInside" style={{ borderRadius: 100 }} alt="img"></img></Link>
                                 </div>
 
                             </div>
@@ -88,7 +88,7 @@ export default function Navbar() {
                         <div className='conttt'>
                             <div className='productMidfour'>
                                 <div className='imgMid'>
-                                    <img src={watch} className="imageInside" alt="img" style={{ borderRadius: 100 }}></img>
+                                    <Link to="/view">    <img src={watch} className="imageInside" alt="img" style={{ borderRadius: 100 }}></img></Link>
                                 </div>
 
                             </div>
@@ -97,7 +97,7 @@ export default function Navbar() {
                         <div className='conttt'>
                             <div className='productMidfive'>
                                 <div className='imgMid'>
-                                    <img src={shoe} className="imageInside" style={{ borderRadius: 100 }} alt="img"></img>
+                                    <Link to="/view">          <img src={shoe} className="imageInside" style={{ borderRadius: 100 }} alt="img"></img> </Link>
                                 </div>
 
                             </div>
@@ -106,7 +106,7 @@ export default function Navbar() {
                         <div className='conttt'>
                             <div className='productMidsix'>
                                 <div className='imgMid'>
-                                    <img src={stampp} className="imageInside" style={{ borderRadius: 100 }} alt="img"></img>
+                                    <Link to="/view">             <img src={stampp} className="imageInside" style={{ borderRadius: 100 }} alt="img"></img> </Link>
                                 </div>
 
                             </div>
